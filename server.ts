@@ -10,7 +10,7 @@ import {
   evaluateMissingChecklistCandidates,
   formatResolutionLabel,
   formatStructuredReportFullText,
-} from './src/data/demoIncident';
+} from './src/data/demoIncident.ts';
 import type {
   ChecklistItemKind,
   ChecklistJumpTarget,
@@ -19,12 +19,12 @@ import type {
   MissingInfoQuestion,
   StructuredAiReport,
   WorkflowStageNumber,
-} from './src/types/incident';
+} from './src/types/incident.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const SQLITE_DB_PATH = path.join(__dirname, 'kavach.sqlite');
 
 const CASE_ID_ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';

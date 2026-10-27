@@ -1,4 +1,4 @@
-import {
+import type {
   ChecklistItemKind,
   ChecklistJumpTarget,
   ChecklistResolutionState,
@@ -7,7 +7,7 @@ import {
   MissingInfoQuestion,
   QuestionResolutionStatus,
   StructuredAiReport,
-} from '../types/incident';
+} from '../types/incident.ts';
 
 export interface LocalAnalysisResult {
   source: 'local-simulated';
