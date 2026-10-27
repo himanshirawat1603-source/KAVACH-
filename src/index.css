@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-navy-950: #050B16;
+  --color-navy-900: #091224;
+  --color-navy-800: #0F1C36;
+  --color-navy-700: #182A4E;
+  --color-brand-blue: #2563EB;
+  --color-brand-cyan: #22D3EE;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: #F8FAFC;
+    background-color: #050B16;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes kavachShieldGlow {
+  0%, 100% {
+    opacity: 0.72;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+@keyframes kavachAmbientSweep {
+  0%, 100% {
+    opacity: 0.35;
+    transform: translate3d(-3%, -2%, 0) scale(1);
+  }
+  50% {
+    opacity: 0.58;
+    transform: translate3d(3%, 2%, 0) scale(1.05);
+  }
+}
+
+@keyframes kavachNodeFloat {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.45;
+  }
+  50% {
+    transform: translate3d(10px, -12px, 0);
+    opacity: 0.85;
+  }
+}
+
+.kavach-shield-glow {
+  animation: kavachShieldGlow 4.5s ease-in-out infinite;
+}
+
+.kavach-ambient-sweep {
+  animation: kavachAmbientSweep 14s ease-in-out infinite;
+}
+
+.kavach-node-float {
+  animation: kavachNodeFloat 9s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
