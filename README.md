@@ -1,35 +1,69 @@
-# 🛡️ KAVACH — Your Safety. Your Evidence. Your Voice.
+# 🛡️ KAVACH
 
-### AI-Powered Incident Documentation Platform
+### Digital Safety & Incident Documentation
 
-KAVACH is an AI-assisted platform designed to help users document incidents, organize evidence, build incident timelines, and prepare structured reports for review.
+**Organize digital evidence. Build clear timelines. Generate structured incident reports.**
 
-## 🎯 Problem Statement
-People experiencing digital safety incidents may struggle to organize evidence and prepare clear, structured incident reports.
+[🌐 Live Demo](https://kavach-safety-1603-622148260318.asia-southeast1.run.app) · [💻 GitHub Repository](https://github.com/himanshirawat1603-source/KAVACH)
+
+---
+
+## 📌 Overview
+
+KAVACH is an AI-assisted digital safety and incident documentation platform designed to help users organize incident details, structure digital evidence, create chronological timelines, and prepare clear incident reports.
+
+The goal is to make incident documentation more organized and easier to review.
+
+## ❓ The Problem
+
+Important incident details and digital evidence can become scattered across messages, screenshots, files, and personal notes. Organizing this information into a clear, chronological report can be difficult and time-consuming.
 
 ## 💡 Our Solution
-KAVACH provides a guided workflow to help users record incident details, organize evidence, review AI-assisted reports, and prepare documentation for further action.
+
+KAVACH brings incident documentation into one workflow, helping users organize the information they provide and prepare structured reports for review.
 
 ## ✨ Key Features
-- 📝 Guided incident documentation
-- 📂 Evidence organization
-- 🤖 AI-assisted report generation
-- 🔎 Missing-information review
-- 🕒 Incident timeline
-- 📄 Report review and PDF export
-- 🆔 Unique KAVACH Case ID
-- 🔗 Access to relevant official support and reporting portals
 
-## 🔐 Privacy and Transparency
-Users should review AI-generated reports before using them. KAVACH Case IDs are not government complaint acknowledgement numbers. Official complaints must be submitted through the relevant official portals.
+- **Incident Documentation** — Record relevant incident details in a structured format.
+- **Evidence Organization** — Keep supporting evidence organized.
+- **Chronological Timeline** — Present incident events in sequence.
+- **AI-Assisted Reporting** — Help turn provided details into a structured report.
+- **Missing Information Review** — Identify details that may need clarification.
+- **Case Tracking** — Organize incidents using case references, where supported.
+- **Report Export** — Export reports where the feature is available.
 
-## 🛠️ Technology
-- TypeScript
-- AI-assisted development with Google AI Studio
+## ⚙️ How It Works
 
-## 🚀 Project Status
-Developed as a hackathon project. Features requiring backend services, authentication, or persistent storage depend on their implementation and configuration.
+1. Enter the available incident details.
+2. Organize relevant supporting evidence.
+3. Build a chronological account of events.
+4. Review the report and identify information that may be missing.
+5. Check the final report and export it if needed.
 
+## 🛠️ Tech Stack
 
-##🚀 🌐 Live Demo — Try KAVACH
-[https://kavach-safety-1603-622148260318.asia-southeast1.run.app](https://kavach-safety-1603-622148260318.asia-southeast1.run.app)
+The project uses technologies and tools selected during development. The exact technology list should be confirmed from the repository before publishing it here.
+
+## 🚀 Try KAVACH
+
+Open the live prototype:
+
+**Launch KAV ACH →**
+
+Explore the available features using sample information. Avoid entering real personal or sensitive incident data into an unverified demo.
+
+## 🔮 Future Scope
+
+- Improve evidence organization and report review.
+- Enhance the incident timeline workflow.
+- Improve usability and accessibility.
+- Explore secure ways to manage incident records.
+- Evaluate integrations with relevant official reporting resources.
+
+## ⚠️ Important Note
+
+KAVACH is an incident documentation aid. An AI-generated report is not proof that an allegation is true, and it does not replace professional advice or official investigation. Users should review generated content for accuracy. Any formal complaint must be submitted through the relevant official channel.
+
+---
+
+**Built as a digital safety project.**
