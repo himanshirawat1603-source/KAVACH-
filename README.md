@@ -29,3 +29,7 @@ Users should review AI-generated reports before using them. KAVACH Case IDs are 
 
 ## 🚀 Project Status
 Developed as a hackathon project. Features requiring backend services, authentication, or persistent storage depend on their implementation and configuration.
+
+
+##🚀 🌐 Live Demo — Try KAVACH
+[https://kavach-safety-1603-622148260318.asia-southeast1.run.app](https://kavach-safety-1603-622148260318.asia-southeast1.run.app)
